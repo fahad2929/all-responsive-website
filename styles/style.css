@@ -70,9 +70,27 @@
     max-width: 1440px;
     margin:0 auto;
   }
+/* .banner-title{
+font-weight: 900;
+} */
+.banner-description {
+  font-weight: 400;
+}
+  .banner-content{
+
+    justify-content: space-between;
+    align-items: center;
+    }
   .btn-primary{
-
-
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    background-color: #e6533c;
+  }
+  .btn-primary-two{
+    box-sizing: border-box;
+    border: 1px;
+    border-radius: 8px;
   }
   .btn-second{
     box-sizing: border-box;
