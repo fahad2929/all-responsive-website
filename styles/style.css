@@ -6,7 +6,7 @@
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-  }  
+  }
   .display-flex{
     display: flex;
   }
@@ -27,35 +27,31 @@
     padding: 3px 14px 3px 14px;
 }
 .bg-light{
+  background: linear-gradient(200.00deg, rgb(25, 25, 25),rgb(17,17,17)100%);
   width: 100%;
-  background: linear-gradient(180.00deg, rgb(25, 25, 25),rgb(17,17,17) 100%);
 }
   /* shared styles */
-
-
-  /* header styles */
-
-
 /* navbar related styles */
   .navbar{
         justify-content: space-between;
+        flex-direction: row;
         align-items: center;
-    }
 
+        
+    }
     .nav-links{
          width: 340px; 
-         align-items: center;
          padding: 4px;
-         box-sizing: border-box;
          border: 1px solid rgba(255, 255, 255, 0.1);
          border-radius: 39px;
     }
-     .brand{
+     .nav-title{
       font-weight:800;
       font-size: 2rem;
+      justify-content: center;
+      align-items: center;
      }
     .nav-item{
-        
         list-style: none;
         margin-right: 30px;
     }
@@ -68,13 +64,17 @@
     margin:0 auto;
   }
 /* banner related style */
-  .banner{ 
-    width: 500px;
+   .banner{
+    justify-content: space-between;
+    align-items: center;
+   }
+  .banner-content{ 
+    width: 400px;
    height: 439px;
-   flex-direction: column;
-   justify-content: flex-start;
-   align-items: flex-start;
-   padding: 70px ;
+   /* flex-direction: column; */
+   /* justify-content: flex-start; */
+   /* align-items: flex-start; */
+   padding: 80px;
   }
 .banner-title{
 font-size: 65px;
@@ -87,32 +87,25 @@ font-weight: 700;
 .shape{
   font-family: cursive;
 }
-  .banner-content{
-    justify-content: space-between;
-    align-items: center;
-    }
+ 
 /* btn related style */
 .btn{
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: space-between;
 }
   .btn-primary{
     width: 180px;
     height: 45px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 28px;
+    border-radius: 8px;
     background-color: #e6533c;
   }
   .btn-primary-two{
     width: 180px;
     height: 45px;
     border: 1px;
-    border-radius:28px;
-  }
- .first-image{
-   
-  }
+    border-radius: 8px;
+    background-color: black;
+  } 
   .btn-second{
     width: 155px;
     height: 70px;
@@ -135,7 +128,7 @@ font-weight: 700;
     width: 125px;
     height: 60px;
     margin-bottom: -100px;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 8px;
@@ -150,7 +143,22 @@ font-weight: 700;
       font-size: 25px;
       font-weight: 900;
     }
+  
+    /* responsive related */
+     @media screen and (max-width: 576px) {
+      .navbar, 
+      .nav-link,
+      .banner,
+      .banner-content,
+      .banner-title,
+      .banner-description{
+        width: fit-content;
+        height: fit-content;
+       flex-direction: column;
+      }
+      
 
+     }
 
     
 
