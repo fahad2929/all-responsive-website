@@ -146,9 +146,13 @@ font-weight: 700;
   /* change relate style */
        
       .change{
-
-        align-items: center;
-        justify-content: center;
+        max-width: 850px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .change-title{
+        font-size: 40px;
+        font-weight: 900;
       }
       .change-container{
         display: grid;
@@ -172,13 +176,14 @@ font-weight: 700;
       .banner,
       .banner-content,
       .banner-title,
-      .banner-description{
+      .banner-description,
+      .change,
+      .change-container,
+      .change-image{
         width: fit-content;
         height: fit-content;
        flex-direction: column;
       }
-      
-
      }
 
     
