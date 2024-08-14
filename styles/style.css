@@ -35,14 +35,13 @@
   background: linear-gradient(200.00deg, rgb(25, 25, 25),rgb(17,17,17)100%);
    max-width: 1440px;
 }
-  /* shared styles */
 /* navbar related styles */
   .navbar{
         justify-content: space-around;
         flex-direction: row;
         align-items: center;
         max-width: 1440px;
-        margin:0 auto;
+        /* margin:0 auto; */
         
     }
     .nav-links{
@@ -56,6 +55,7 @@
       font-size: 2rem;
       justify-content: center;
       align-items: center;
+      margin-left: -3rem;
      }
     .nav-item{
         list-style: none;
@@ -80,23 +80,32 @@
 font-size: 65px;
 font-weight: 700;
 } 
-
 .shape{
   font-family: cursive;
 }
  /*main related style */
   
- .teams{
-   justify-content: center;
-   align-items: center;
- }
+.teams{
+
+  display: flex;
+  flex-direction: column;
+
+}
+.teams-title{
+ font-size: 3rem;
+ font-weight: 800;
+  text-align: center;
+}
+.teams-description{
+text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+}
 .trainer-images{
   width: 10rem;
   height: 200px;
   border-radius: 8px;
   padding: 5px;
-  display: grid;
-  grid-template-columns: repeat(6, 2fr);
 }
  .trainer-name{
   font-size: 10px;
@@ -166,15 +175,19 @@ font-weight: 700;
       .change{
         margin: 0 auto;
         text-align: center;
-        
+        align-items: center;
       }
       .change-title{
         font-size: 40px;
         font-weight: 900;
       }
+      .change-description{
+
+      }
       .change-container{
         display: grid;
         grid-template-columns: repeat(4,1fr);
+        padding: 5rem 8rem 4rem 4rem;
       }
      .image{
         width: 100px;
@@ -189,14 +202,13 @@ font-weight: 700;
     }
         /* section related style */
       .section{
-        width: 38rem;
-        justify-content: space-around;
+        width: 42rem;
+        justify-content: space-between;
         align-items: center;
         background-color: rgb(52, 52, 52);
-        padding: 8px 8px 8px 8px;
-        margin: 2rem 20rem;
+        padding: 8px 12px 8px 12px;
+        margin: -2rem 18rem 1rem;
         border-radius: 10px;
-
       }
       .section-btn{
         width: 160px;
@@ -210,9 +222,6 @@ font-weight: 700;
        border-radius: 8px;
       }
 
-      .hide{
-        display: none;
-      }
 
 
 
