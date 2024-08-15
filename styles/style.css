@@ -25,15 +25,15 @@
 .orange{
     color: rgb(230, 83, 60);
 }
-.home{
-    border-radius: 46px;
-    background: #e6533c;
-    margin: 0px -2px;
-    padding: 3px 14px 3px 14px;
-}
 .bg-light{
-  background: linear-gradient(200.00deg, rgb(25, 25, 25),rgb(17,17,17)100%);
+   background: linear-gradient(200.00deg, rgb(14, 14, 14),rgb(17,17,17)100%);
    max-width: 1440px;
+}
+.home{
+  border-radius: 46px;
+  background: #e6533c;
+  margin: 0px -2px;
+  padding: 3px 14px 3px 14px;
 }
 /* navbar related styles */
   .navbar{
@@ -71,8 +71,8 @@
    }
   .banner-content{ 
     width: 400px;
-   height: 439px;
-   padding: 80px;
+    height: 439px;
+    padding: 80px;
   }
 .banner-title{
 font-size: 65px;
@@ -87,9 +87,9 @@ font-weight: 700;
   flex-direction: column;
 }
 .teams-title{
- font-size: 3rem;
- font-weight: 800;
-  text-align: center;
+   font-size: 3rem;
+   font-weight: 800;
+   text-align: center;
 }
 .teams-description{
   text-align: center;
@@ -97,18 +97,18 @@ font-weight: 700;
   font-weight: 300;
 }
 .teams-images-container{
-  width: 40%;
+   width: 40%;
    background-color: rgb(33, 33, 33);
    place-items: center;
    display: grid;
    grid-template-columns: repeat(3,1fr);
    padding: 6px;
    border-radius: 8px;
-  margin-left: auto;
-  margin-right: auto;
+   margin-left: auto;
+   margin-right: auto;
 }
 .trainer-images{
-  width: 10rem;
+  width: 11rem;
   height: 200px;
   border-radius: 10px;
   padding: 5px 5px 5px 5px;
@@ -129,15 +129,15 @@ font-weight: 700;
     width: 180px;
     height: 45px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
+    border-radius: 20px;
     background-color: #e6533c;
   }
   .btn-primary-two{
     width: 180px;
     height: 45px;
-    border: 1px;
-    border-radius: 8px;
-    background-color: black;
+    border: 2px solid rgb(153, 150, 150);
+    border-radius: 20px;
+    background-color: rgb(13, 13, 13);
   } 
   .btn-second{
     width: 155px;
@@ -187,13 +187,15 @@ font-weight: 700;
         font-weight: 900;
       }
       .change-container{
+        
         display: grid;
         grid-template-columns: repeat(4,1fr);
+        margin-left: 102px;
         padding: 5rem 8rem 4rem 4rem;
       }
      .image{
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
        border: 2px solid rgba(255, 255, 255, 0.5);
        border-radius: 50%;
     }
@@ -204,12 +206,13 @@ font-weight: 700;
     }
         /* section related style */
       .section{
-        width: 42rem;
+        width: 43rem;
         justify-content: space-between;
         align-items: center;
         background-color: rgb(52, 52, 52);
-        padding: 8px 12px 8px 12px;
-        margin: -2rem 18rem 1rem;
+        padding: 9px 13px 10px 13px;
+        margin-left: 22rem;
+        /* margin: -3rem 18rem 1rem; */
         border-radius: 10px;
       }
       .section-btn{
@@ -221,60 +224,46 @@ font-weight: 700;
       }
       .section-image{
         width: 15rem;
-       border-radius: 8px;
+        border-radius: 8px;
       }
       /* footer related style */
 
-
-
-
-
-      /* responsive related style */
-     /* @media screen and (max-width: 576px) {
-
-      .navbar,.banner,.btn-second,.btn-primary,.change,.section{
-        display: flex;
-        flex-direction: column;
-       margin-right: 0px;
-       margin-left: 0px;
-       
-      }
-      
-      .change-container{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-      
-      }
-     }  */
-
-     /* responsive related */
-     @media screen and (max-width: 576px) {
-      .navbar, 
-      .nav-link,
-      .banner,
-      .banner-content,
-      .banner-title,
-      .banner-description,
-      .change,
-      .change-container,
-      .change-image,
-      .section{
-        width: fit-content;
-        height: fit-content;
-       flex-direction: column;
-       align-items: center;
-      } 
-
-      .change-container{
-        width: fit-content;
-        display: flex;
-      grid-template-columns: repeat(4,4fr);} 
-.section{
-
-  justify-content: center;
-  align-items: center;
+.footer{
+  justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
 }
+.footer-title{
+  font-size: 4rem;
+  font-weight: 800;
+}
+.footer-description{
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: -3px;
+}
+.footer-items{
+  font-size: 28px;
+  font-weight: 500;
+}
+.footer-links{
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: -22px;
+}
+.end-game{
+  margin-left: -7rem;
+}
+.footer-last-title{
+   
+  
+   font-size: 20px;
+   font-weight: 400;
+   border-top: 4px solid rgba(255, 255, 255, 0.1);
+   text-align: center;
+   margin-left: 7rem;
+   margin-right: 4rem;
+   padding: 50px;
 
-      }
+}
     
