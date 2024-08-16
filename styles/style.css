@@ -150,11 +150,12 @@ font-weight: 700;
    background: rgba(255, 255, 255, 0.1);
   }
   #badge{
-    margin-left: -40px;
+    margin-left: -5px;
     margin-top: -118px;
+    text-align: center;
   }
   #badge-two{
-   margin-left: 245px;
+   margin-left: 250px;
    margin-bottom: -230px;
   }
   .btn-third{
@@ -264,6 +265,74 @@ font-weight: 700;
    margin-left: 7rem;
    margin-right: 4rem;
    padding: 50px;
-
 }
+
+/* responsive related styles */
+  
+   @media screen and (max-width:576px) {
+   
+    .navbar,
+    .banner,
+    .change,
+    .change-container,
+    .section,
+    .teams,
+    .teams-images-container,
+    .footer{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .banner{
+      margin-right: 10px;
+      margin-left: 30px;
+
+    }
+     .btn-second{
+      margin-right: 5px;
+      width: 130px;
+     }
+   
+    .first-image{
+      margin-top: 8rem;
+      margin-left: 50px;
+    }
+    .change{
+      margin-top: 10rem;
+    }
+    /* .change-container{
+      justify-content: center;
+      align-items: center;
+    } */
+    .image{
+      margin-left: -20px;
+    }
+    .image-one{
+      width: 120px;
+      height: 120px;
+      border: 2px solid rgba(255, 255, 255, 0.5);
+      border-radius: 50%;
+      margin-left: -6rem;
+    }
+    .image-name{
+      margin-left: 5px;
+    }
+    .image-name-one{
+      margin-left: -6rem;
+    }
+    .image-description{
+      width: 18rem;
+      margin-left: -5rem;
+    }
+   
+    .section{
+      width: 15rem;
+      margin-left: 6rem;
+    }
+    .section-image{
+
+      margin-top: 10px;
+    }
+  }
+
     
