@@ -252,12 +252,19 @@ font-weight: 700;
   font-weight: 300;
   margin-left: -22px;
 }
+.footer-items-two{
+  font-size: 28px;
+  font-weight: 500;
+}
+.footer-links-two{
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: -22px;
+}
 .end-game{
   margin-left: -7rem;
 }
 .footer-last-title{
-   
-  
    font-size: 20px;
    font-weight: 400;
    border-top: 4px solid rgba(255, 255, 255, 0.1);
@@ -327,12 +334,34 @@ font-weight: 700;
    
     .section{
       width: 15rem;
-      margin-left: 6rem;
+      margin-left: 5rem;
     }
     .section-image{
-
       margin-top: 10px;
     }
+    .section-btn{
+        width: 14rem;
+        height: 40px;
+        margin-left: 8px;
+    }
+    .teams-images-container{
+        width: 12rem;
+    }
+    .teams-images-card{
+      width: 11.5rem;
+      height: 13.2rem;
+    }
+   .last{
+    margin-left: -15rem;
+   }
+   .footer-last-title{
+     width: 22rem;
+    border-top: 4px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+    margin-left: -2px;
+    padding: 20px;
+
+   }
   }
 
     
